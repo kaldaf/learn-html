@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ChatRoom</title>
+</head>
+<body>
+    <div id="app">
+        <div class="chat-main">
+            <sidebar @actual="selectedPage"></sidebar>
+            <applications v-if="pageSelectedToShow == 0"></applications>
+            <stats v-if="pageSelectedToShow == 1"s></stats>
+            <reports v-if="pageSelectedToShow == 2"></reports>
+            <calendar v-if="pageSelectedToShow == 3"></calendar>
+            <chat v-if="pageSelectedToShow == 4"></chat>
+            <settings v-if="pageSelectedToShow == 5"></settings>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
