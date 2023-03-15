@@ -1,6 +1,5 @@
-# Učení HTML, JS a CSS & SCSS
+# Learning HTML, JS and CSS & SCSS
+While studying at [High School](https://kyberna.cz), I taught freshmen the basics of the web, so we built apps using the basics and the Vue.js framework.
 
-Při studiu na [SŠAKHK](https://kyberna.cz) jsem učil prváky základy webu, tak jsme si pomocí základů a Vuejs frameworku vytvořili aplikace.
-
-## Ukázka
+## Showcase
 ![](https://raw.githubusercontent.com/kaldaf/learn-html/main/chat-room/git-screens/chatroom-screen1.PNG)
